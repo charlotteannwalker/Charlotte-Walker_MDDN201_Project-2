@@ -1,0 +1,6 @@
+barebones html5 template to start a project
+	https://www.sitepoint.com/a-basic-html5-template/
+tutorial in fullpage.js
+	http://webdesign.tutsplus.com/articles/vertical-and-horizontal-scrolling-with-fullpagejs--cms-24215
+github for fullpage.js
+	https://github.com/alvarotrigo/fullPage.js

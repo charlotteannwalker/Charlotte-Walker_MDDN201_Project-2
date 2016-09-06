@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Template using a fullpage.js plugin</title>
+    <meta name="author" content="Alvaro Trigo Lopez" />
+    <meta name="description" content="fullPage auto-height example." />
+    <meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,auto-height,full-screen" />
+    <meta name="Resource-type" content="Document" />
+
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="css/examples.css" />
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="animate.css">
+
+    <!--[if IE]>
+        <script type="text/javascript">
+             var console = { log: function() {} };
+        </script>
+    <![endif]-->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                verticalCentered: true,
+                anchors: ['firstPage', 'secondPage'],
+                sectionsColor: ['#fffff', '#fffff'] 
+            });
+        });
+    </script>
+    <style>
+    /* in file css styling */
+      .myContent{
+        min-height: 300px;
+        overflow: auto;
+      }
+      .row{width:!100%;height:auto;margin:30px;float:left;}
+      .splitLeft{
+        height:auto;
+        width:25%;
+        float:left;
+      }
+      .splitRight{
+        height:auto;
+        width:75%;
+        /*background-color: grey;*/
+        float:left;
+      }
+
+      p{
+        font-size: 22px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+      }
+        
+    .container img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+/*        opacity: 0.8;*/
+}
+
+    .center img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+/*        opacity: 0.7;*/
+}
+        
+    .arrow img {
+        top: 90%;
+        position: absolute;
+        left: 40%;
+        width: 400px;
+        height: auto;
+        -webkit-animation-iteration-count: infinite;
+        
+ } 
+        .title-header img {
+            position: absolute;
+            left: 10%;
+            top: 0;
+            width: 20%;
+            height: auto;
+            padding-top: 30px;
+            opacity: 1;
+        }
+        .navigationbar {
+            text-align: right;
+            right: 10%;
+            position: absolute;
+            top: 70px;
+            padding: 30px;
+            text-decoration: none;
+        }
+        
+        .bannerunderthenav {
+            position: absolute;
+            top: 200px;
+            
+        }
+        
+        .left-side-shoe {
+            position: absolute;
+            bottom: 100px;
+            padding: 100px;
+            left: 100px;
+        }
+    </style>
+
+</head>
+<body>
+<!--
+  <ul id="menu">
+      <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First slide</a></li>
+      <li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
+  </ul>
+-->
+
+<div id="fullpage">
+    <!-- section starts -->
+    <div class="section" id="section0">
+       <div class="myContent">
+           <div class="container">
+           <img src="SHOES.png" alt="welcomepageimg" height='1280'; width='1920'>
+               
+               <div class="center">
+                   <img src="titlegrey.png" alt="titleimg" height='1280'; width='1920';/>
+                    </div>
+
+               <div class="arrow animated infinite bounce">
+               <img src="arrow.png" alt="scrollarrow" height="200px" width="auto"/>
+               </div>
+        </div>
+        </div>
+        
+    </div>
+    <!-- section ends -->
+    <!-- section starts -->
+    <div class="section" id="section1">
+          <div class="myContent">
+              <div class="title-header">
+              <img src="just%20ditto.png" alt="dittotitlepage" width="20%"; height="auto";>
+              </div>
+        
+        <div class="navigationbar">
+        <ul>
+            
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html#secondPage">info</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li>create</li>
+            <li>login</li>
+            <li>profile</li>
+</ul>
+        </div>
+              
+              <div class="bannerunderthenav">
+              <img src="banner.png" alt="banner" width="100%" height="auto"/>
+              </div>
+              
+        <div class="left-side-shoe">
+              <img src="shoe1.png" alt="leftshoe" width="650px"; height="auto";/>
+              </div>      
+        <article class="introduction">
+        <p>
+            Ditto is a fictional distribution and retail company that requires a website to sell their products. Ditto allows their consumers to customise their very own knock off shoes. The website aims to be functional and refreshing to encourage the user to be original and express their own personal style. The website also contains a blog forum where the users can submit their individual designs, creating a community where others can gain inspiration, and use eachother’s designs.Ditto uses html, javascript and jquery to allow the user to experience a seamless online shopping experience, without any complications.        
+        </p>
+        <p>
+            Alongside these functions Ditto supports child labour and slave trade to bring you only the best fake shoes derived from the likes of Nike, Adidas, Puma and Converse.
+        </p>
+            
+        </article>
+        </div>
+    </div>
+    <!-- section ends -->   
+</div>
+
+</body>
+</html>
