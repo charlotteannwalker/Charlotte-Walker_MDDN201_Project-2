@@ -43,7 +43,7 @@ ol,ul {
     padding-top: 30px;
 }
 
-.title-header-blog {
+.title-header-profile {
     position: relative;
     left: 30%;
     top: 100px;
@@ -67,57 +67,57 @@ a:hover {
     color: #5ca4a9;
 }
 
-.photo1 img {
-    top: 30%;
-    left: 10%;
-    display: inline-block;
+.bannerunderthenav {
     position: absolute;
+    top: 200px;
+            
 }
 
-.photo2 img {
-    top: 30%;
-    left: 30%;
-    display: inline-block;
+.signupbutton {
+    width: 14%;
     position: absolute;
+    background-color: white;
+    text-align: center;
+    bottom: 30%;
+    color: #ed6a5a;
+    padding: 50px;
+    left: 20%;
+    font-family: Helvetica;
+    font-size: 50px;
+    font-variant: small-caps;
+     border-bottom: 2px solid #ed6a5a;
 }
 
-.photo3 img {
-    top: 30%;
-    left: 50%;
-    display: inline-block;
+.loginbutton {
+    width: 14%;
     position: absolute;
+    background-color: white;
+    text-align: center;
+    bottom: 30%;
+    color: #ed6a5a;
+    padding: 50px;
+    right: 20%;
+    font-family: Helvetica;
+    font-size: 50px;
+    font-variant: small-caps;
+    border-bottom: 2px solid #ed6a5a;
 }
 
-.photo4 img {
-    top: 30%;
-    left: 70%;
-    display: inline-block;
-    position: absolute;
+.loginbutton:hover {
+    color:#808080;
 }
 
-.photo5 img {
-    top: 70%;
-    left: 10%;
-    display: inline-block;
-    position: absolute;
+.signupbutton:hover {
+    color:#808080;
 }
 
-.photo6 img {
-    top: 70%;
-    left: 30%;
-    display: inline-block;
+footer {
     position: absolute;
-}
-.photo7 img {
-    top: 70%;
-    left: 50%;
-    display: inline-block;
-    position: absolute;
-}
-
-.photo8 img {
-    top: 70%;
-    left: 70%;
-    display: inline-block;
-    position: absolute;
+    bottom: 0;
+    padding: 1em;
+    color: white;
+    background-color: #f7c0b9;
+    clear: left;
+    text-align: center;
+    width: 100%;
 }

@@ -31,7 +31,6 @@ caption,th {
     text-align: left;
 
 }
-/*
 h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
     font-size: 100%;
@@ -39,17 +38,17 @@ h1,h2,h3,h4,h5,h6 {
     padding:0;
     color:#444;
 }
-*/
 q:before,q:after {
     content:'';
 }
 abbr,acronym { border: 0;
 }
 
+
 /* Custom CSS
  * --------------------------------------- */
 body{
-	font-family: helvetica;
+	font-family: arial,helvetica;
 	color: #333;
 	color: rgba(0,0,0,0.5);
 }
@@ -73,27 +72,6 @@ p{
 .section{
 	text-align:center;
 }
-
-.navigationbar ul {
-    text-align: center;
-    text-decoration: none;
-    color: #808080;
-    
-    
-}
-
-.navigationbar li {
-    display: inline-block;
-    padding: 50px;
-    font-size: 28px;
-    text-decoration: none;
-    font: Helvetica;
-    font-variant: small-caps;
-    font-weight: lighter;
-    color: #808080;
-}
-
-/*
 #menu li {
 	display:inline-block;
 	margin: 10px;
@@ -136,7 +114,6 @@ p{
 	padding: 0;
 	margin:0;
 }
-*/
 .twitter-share-button{
 	position: fixed;
 	z-index: 99;
@@ -265,45 +242,3 @@ p{
 	z-index: 999;
  }
 
-article {
-    position: absolute;
-    margin-left: 1000px;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
-    bottom: 250px;
-    margin-right: 100px;
-}
-
-article p{
-    font: Helvetica;
-    font-variant: small-caps;
-    font-weight: lighter;
-    font-size: 25px;
-}
-
-a:link {
-    text-decoration: none;
-    color:#808080; 
-}
-
-a:visited {
-    text-decoration: none;
-    color:#808080; 
-}
-
-a:hover {
-    text-decoration: none;
-    color: #5ca4a9;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    padding: 1em;
-    color: white;
-    background-color: #f7c0b9;
-    clear: left;
-    text-align: center;
-    width: 100%;
-}

@@ -67,57 +67,29 @@ a:hover {
     color: #5ca4a9;
 }
 
-.photo1 img {
-    top: 30%;
-    left: 10%;
-    display: inline-block;
+.carousel img {
+    width: 80%;
+    height: 60%;
     position: absolute;
+    margin-top: 30%;
 }
 
-.photo2 img {
-    top: 30%;
-    left: 30%;
-    display: inline-block;
+.descriptioncreate article {
     position: absolute;
+    border-bottom: 1px solid #ed6a5a;
+    border-left: 1px solid #ed6a5a;
+    overflow: hidden;
+    top: 25%;
+    left: -30%;
+    width: 20%;
+    height: auto;
 }
 
-.photo3 img {
-    top: 30%;
-    left: 50%;
-    display: inline-block;
-    position: absolute;
-}
-
-.photo4 img {
-    top: 30%;
-    left: 70%;
-    display: inline-block;
-    position: absolute;
-}
-
-.photo5 img {
-    top: 70%;
-    left: 10%;
-    display: inline-block;
-    position: absolute;
-}
-
-.photo6 img {
-    top: 70%;
-    left: 30%;
-    display: inline-block;
-    position: absolute;
-}
-.photo7 img {
-    top: 70%;
-    left: 50%;
-    display: inline-block;
-    position: absolute;
-}
-
-.photo8 img {
-    top: 70%;
-    left: 70%;
-    display: inline-block;
-    position: absolute;
+.descriptioncreate article p {
+    font: Helvetica;
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-size: 25px;
+    color: #ed6a5a;
+    padding: 10px;
 }

@@ -66,58 +66,67 @@ a:hover {
     text-decoration: none;
     color: #5ca4a9;
 }
-
-.photo1 img {
-    top: 30%;
-    left: 10%;
-    display: inline-block;
+.bannerunderthenav {
     position: absolute;
+    top: 200px;
+            
 }
 
-.photo2 img {
-    top: 30%;
+.social media icons {
+    display: inline-block;
+}
+.photo1 img {
+    top: 50%;
     left: 30%;
     display: inline-block;
     position: absolute;
 }
 
+.photo2 img {
+    top: 50%;
+    left: 40%;
+    display: inline-block;
+    position: absolute;
+}
+
 .photo3 img {
-    top: 30%;
+    top: 50%;
     left: 50%;
     display: inline-block;
     position: absolute;
 }
 
 .photo4 img {
-    top: 30%;
-    left: 70%;
+    top: 50%;
+    left: 60%;
     display: inline-block;
     position: absolute;
 }
 
-.photo5 img {
-    top: 70%;
-    left: 10%;
-    display: inline-block;
+footer {
     position: absolute;
+    bottom: 0;
+    padding: 1em;
+    color: white;
+    background-color: #f7c0b9;
+    clear: left;
+    text-align: center;
+    width: 100%;
 }
 
-.photo6 img {
-    top: 70%;
-    left: 30%;
-    display: inline-block;
+article {
     position: absolute;
-}
-.photo7 img {
-    top: 70%;
-    left: 50%;
-    display: inline-block;
-    position: absolute;
+    margin-left: 1000px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    bottom: 250px;
+    margin-right: 100px;
 }
 
-.photo8 img {
-    top: 70%;
-    left: 70%;
-    display: inline-block;
-    position: absolute;
+article p{
+    font: Helvetica;
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-size: 25px;
 }

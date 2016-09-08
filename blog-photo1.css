@@ -67,57 +67,61 @@ a:hover {
     color: #5ca4a9;
 }
 
-.photo1 img {
-    top: 30%;
+.leftsection div {
+    font-size: 60px;
+    font-family: Helvetica;
+    font-variant: small-caps;
+    text-align: center;
+    left: 10.5%;
+    padding-top: 100px; 
+    position: absolute;
+    top:44%;
+    color: black;
+}
+
+.leftsection img {
+/*    padding: 30px;*/
     left: 10%;
-    display: inline-block;
     position: absolute;
+    top: 20%;
 }
 
-.photo2 img {
-    top: 30%;
-    left: 30%;
-    display: inline-block;
-    position: absolute;
-}
-
-.photo3 img {
-    top: 30%;
-    left: 50%;
-    display: inline-block;
-    position: absolute;
-}
-
-.photo4 img {
-    top: 30%;
-    left: 70%;
-    display: inline-block;
-    position: absolute;
-}
-
-.photo5 img {
-    top: 70%;
+.bottomsection .shoe1 img {
     left: 10%;
-    display: inline-block;
+    padding: 30px;
     position: absolute;
+    bottom: 10%;
 }
 
-.photo6 img {
-    top: 70%;
-    left: 30%;
-    display: inline-block;
+.bottomsection .shoe2 img {
+    left: 36.66667%;
+    padding: 30px;
     position: absolute;
+    bottom: 10%;
 }
-.photo7 img {
-    top: 70%;
-    left: 50%;
-    display: inline-block;
+.bottomsection .shoe3 img {
+    left: 63.3333367%;
+    padding: 30px;
     position: absolute;
+    bottom: 10%;
 }
 
-.photo8 img {
-    top: 70%;
-    left: 70%;
-    display: inline-block;
+.middlesection article {
     position: absolute;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+    top: 25%;
+    right: 10%;
+    width: 60%;
+    height: 30%;
+    left: -10%;
+}
+
+.middlesection article p{
+    font: Helvetica;
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-size: 25px;
+    color: black;
+    padding: 5px;
 }
